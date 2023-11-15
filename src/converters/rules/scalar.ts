@@ -13,7 +13,7 @@ const rules: Rule[] = [
 
       return false;
     },
-    transformer: (field) => ({...field, type: SDL.String}),
+    transformer: (field) => ({...field, type: PSL.Json}),
   },
   {
     matcher: (field) => {

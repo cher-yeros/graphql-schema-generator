@@ -24,6 +24,7 @@ enum PSL {
 enum Scalar {
   ByteArray = 'ByteArray',
   DateTime = 'DateTime',
+  
 }
 
 enum ReservedName {
