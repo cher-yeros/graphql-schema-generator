@@ -6,7 +6,7 @@ const extractScalars = (dataModel: DataModel): string[] => {
 
   const scalars = new Set<string>();
 
-  console.log('fork test')
+  console.log('fork test');
 
   names.forEach((name) => {
     const model = models[name];
@@ -23,7 +23,7 @@ const extractScalars = (dataModel: DataModel): string[] => {
       }
 
       if (type === PSL.Json) {
-        scalars.add(PSL.Json || "Json");
+        scalars.add(PSL.Json || 'Json');
       }
     });
   });
